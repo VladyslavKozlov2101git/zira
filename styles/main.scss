@@ -30,7 +30,9 @@ body{
     background-color:#E5E5E5;
 }
 
-
+.bold{
+    font-weight: 700;
+}
 
 .wrapper{
     max-width:1620px;
@@ -226,6 +228,59 @@ h1.page-title-text{
 
 .content-projects{
     &-row{
-        justify-content: space-between;
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 7px;
     }
+    &-title{
+        max-width: 800px;
+        width: 100%;
+    }
+    &-key{
+        max-width: 120px;
+        width: 100%;
+    }
+}
+
+
+
+/**********************************
+**************My issues************
+**********************************/
+
+.content-allIssues{
+    max-width: 440px;
+    width: 100%;
+    border-right: 2px solid #E5E5E5;
+    padding-right: 12px;
+}
+
+.content-issues{
+    &-title{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    &-txt{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 5px;
+        
+    }
+    &-header{
+        margin-bottom: 3px;
+    }
+
+    &-item{
+        border-bottom: 2px solid #E5E5E5;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+.content-innerIssue{
+    padding-left: 31px;
 }
