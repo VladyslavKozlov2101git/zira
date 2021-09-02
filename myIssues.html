@@ -12,7 +12,7 @@
     <header class="header">
         <nav class="header-navigation row">
             <div class="header-container row ">
-                <a href="/" class="header-logo logo">
+                <a href="./index.html" class="header-logo logo">
                     <img class="header-logo-img" src="./img/logo.svg" alt="logo">
                 </a>
                 <ul class="header-menu row">
@@ -21,7 +21,7 @@
                         <button class="header-arrow"></button>
                     </li>
                     <li class="header-menu-item">
-                        <a class="header-menu-link" href="/">My issues</a>
+                        <a class="header-menu-link" href="./myIssues.html">My issues</a>
                     </li>
                 </ul>
 
@@ -124,7 +124,7 @@
                                     </p>
                                     <ul class="issues-markers row">
                                         <li class="issues-markers-item  marker-type-task">
-                                            Task
+                                            Task           
                                         </li>
                                         <li class="issues-markers-item  marker-priority-medium">
                                             Medium
@@ -146,9 +146,63 @@
                             <h2 class="content-issues-title">
                                 [LP-12] Добавить временные метки в song splitter
                             </h2>
-                            <p class="content-issue-update">
+                            <p class="content-issues-update">
                                 Last update: <span>18.09.2021 14:32</span> 
                             </p>
+                        </div>
+
+                        <div class="content-issues-infoBlock row">
+                            <div class="issues-infoblock-box columm">
+                                <ul class="issues-markers row">
+                                    <li class="row">
+                                        <p class="issues-infoblock-txt">
+                                            Type:
+                                        </p>
+                                        <p class="issues-markers-item  marker-type-task">
+                                            Task
+                                        </p>
+                                    </li>
+                                    
+                                    <li  class="row">
+                                        <p class="issues-infoblock-txt">
+                                            Status:
+                                        </p>
+                                        <p class="issues-markers-item  marker-priority-medium">
+                                            Medium
+                                        </p>
+                                    </li>
+                                    
+                                    <li  class="row">
+                                        <p class="issues-infoblock-txt">
+                                            Status:
+                                        </p>
+                                        <p class="issues-markers-item  marker-status-todo">
+                                            Todo
+                                        </p>
+                                    </li>
+                                    
+                                </ul>
+                                <div class="issues-infoblock-assignee row">
+                                    <p class="issues-infoblock-txt">
+                                        Assignee:
+                                    </p>
+                                    <img class="issues-infoblock-avatar" src="./img/avatar1.png" alt="avatar">
+                                    <p class="issues-infoblock-name">
+                                        Vladyslav Kozlov <span>(you)</span>
+                                    </p>
+                                    <button class="issues-infoblock-edit"></button>
+                                </div>
+
+                            </div>
+                            <div class="issues-infoblock-box columm">
+                                <div class="issues-infoblock-estimate row">
+                                    Original estimate: <span>2h</span> <button class="issues-infoblock-edit"></button>
+                                </div>
+                                <p class="issues-infoblock-reported">
+                                    Reported: <span>30m</span> <button class="issues-infoblock-edit"></button>
+                                </p>
+                            </div>
+
                         </div>
 
                         <h3 class="content-innerIssue-title">
@@ -157,22 +211,43 @@
 
                         <ul class="content-linked-list colum">
                             <li class="content-linked-item row">
-                                <span>[LP-12]</span> Добавить временные метки в song splitter
+                                <a class="content-linked-item-link" href="/">
+                                    <span>[LP-12]</span> Добавить временные метки в song splitter
+                                </a>
+                                
                             </li>
                             <li class="content-linked-item row">
-                                <span>[LP-12]</span> Добавить временные метки в song splitter
-                            </li>
-                            <li class="content-linked-item row">
-                                <span>[LP-12]</span> Добавить временные метки в song splitter
-                            </li>
-                            <li class="content-linked-item row">
-                                <span>[LP-12]</span> Добавить временные метки в song splitter
+                                <a class="content-linked-item-link" href="/">
+                                    <span>[LP-12]</span> Добавить временные метки в song splitter
+                                </a>
+                                
+                            </li><li class="content-linked-item row">
+                                <a class="content-linked-item-link" href="/">
+                                    <span>[LP-12]</span> Добавить временные метки в song splitter
+                                </a>
+                                
+                            </li><li class="content-linked-item row">
+                                <a class="content-linked-item-link" href="/">
+                                    <span>[LP-12]</span> Добавить временные метки в song splitter
+                                </a>
+                                
                             </li>
                         </ul>
 
                         <h3 class="content-innerIssue-title">
                             Attachments
                         </h3>
+
+                        <ul class="content-attachment-list row">
+                            <li class="content-attachment-item column">
+                                <img class="content-attachment-preview" src="./img/attachment.png" alt="attachment" >
+                                <p class="content-attachment-filename">attachment - 1.png</p>
+                            </li>
+                            <button class="content-attachment-item content-attachment-btn column">
+                                <img class="content-attachment-preview" src="./img/addFile.svg" alt="attachment" >
+                                <p class="content-attachment-filename">Upload a file</p>
+                            </button>
+                        </ul>
 
                         <h3 class="content-innerIssue-title">
                             Description
