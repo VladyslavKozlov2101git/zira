@@ -369,7 +369,6 @@ h1.page-title-text {
   color: #A3AFB7;
   font-size: 18px;
   line-height: 24px;
-  padding-top: 5px;
 }
 
 .content-issues-title {
@@ -513,5 +512,12 @@ h1.page-title-text {
   width: 24px;
   height: 24px;
   margin-right: 5px;
+}
+
+.issues-infoblock-name {
+  color: #263238;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
