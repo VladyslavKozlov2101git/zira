@@ -1,4 +1,5 @@
 @import "_markers.scss";
+@import "_register.scss";
 
 h1, h2, h3, h4, h5, h6, html, body {
     margin: 0;
@@ -47,6 +48,16 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+
 .header{
     background-color: #F3F7F9;
     height: 60px;
